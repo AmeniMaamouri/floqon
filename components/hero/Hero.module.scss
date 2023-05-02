@@ -1,0 +1,20 @@
+.container {
+    text-align: center;
+    margin-top: 60px;
+
+    h1 {
+        font-size: 5.806vw;
+
+    }
+
+    h1:nth-child(1) {
+        color: #183282;
+    }
+
+    h1:nth-child(2) {
+        background: linear-gradient(191.86deg, #C25A8D 0%, #2B0C43 101.32%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+}
