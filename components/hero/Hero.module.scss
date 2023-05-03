@@ -3,9 +3,17 @@
     margin-top: 60px;
     padding: 0 20px;
 
+    .imgHero {
+        margin-top: 80px;
+
+        @media (max-width:950px) {
+            width: 90%;
+        }
+    }
+
     h1 {
         font-size: 5.806vw;
-       
+
         @media (max-width:1000px) {
             font-size: 40px;
         }
@@ -15,8 +23,8 @@
         color: #183282;
     }
 
-    .speedImg{
-        @media (max-width:500px) {
+    .speedImg {
+        @media (max-width:1000px) {
             display: none;
         }
     }
@@ -28,7 +36,7 @@
         background-clip: text;
     }
 
-    .description{
+    .description {
         font-weight: 400;
         color: #4E545F;
         font-size: 20px;
@@ -44,6 +52,7 @@
             width: 90%;
             font-size: 17px;
         }
+
         @media (max-width:600px) {
             width: 100%;
         }

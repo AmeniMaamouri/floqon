@@ -1,4 +1,6 @@
+import DownloadApp from '@/components/downloadApp/DownloadApp'
 import Hero from '@/components/hero/Hero'
+import HowItWorks from '@/components/howItWorks/HowItWorks'
 import Navbar from '@/components/navbar/Navbar'
 
 export default function Home() {
@@ -6,6 +8,8 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
+      <HowItWorks />
+      <DownloadApp />
     </>
   )
 }
