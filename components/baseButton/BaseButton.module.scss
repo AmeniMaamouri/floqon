@@ -4,7 +4,11 @@
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 12px 0px;
+    padding: 14px 0px;
     border-radius: 12px;
     width: 100%;
+
+    &:hover{
+        background: rgb(251, 180, 15)
+    }
 }

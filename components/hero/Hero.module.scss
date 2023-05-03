@@ -1,14 +1,24 @@
 .container {
     text-align: center;
     margin-top: 60px;
+    padding: 0 20px;
 
     h1 {
         font-size: 5.806vw;
-
+       
+        @media (max-width:1000px) {
+            font-size: 40px;
+        }
     }
 
     h1:nth-child(1) {
         color: #183282;
+    }
+
+    .speedImg{
+        @media (max-width:500px) {
+            display: none;
+        }
     }
 
     h1:nth-child(2) {
@@ -16,5 +26,26 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
+    }
+
+    .description{
+        font-weight: 400;
+        color: #4E545F;
+        font-size: 20px;
+        width: 70%;
+        max-width: 990px;
+        opacity: 0.8;
+        line-height: 30px;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 35px;
+
+        @media (max-width:1000px) {
+            width: 90%;
+            font-size: 17px;
+        }
+        @media (max-width:600px) {
+            width: 100%;
+        }
     }
 }
