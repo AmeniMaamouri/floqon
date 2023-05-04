@@ -1,0 +1,45 @@
+.container{
+    padding-top: 60px;
+    width: 85%;
+    margin: auto;
+
+
+    h2{
+        color: #183282;
+        font-size: 48px;
+        text-align: center;
+        margin-bottom: 20px;
+
+        @media (max-width:1000px) {
+            font-size: 28px;
+        }
+    }
+    .description{
+        text-align: center;
+        color: #4E545F;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        max-width: 600px;
+        margin: auto;
+        margin-bottom: 40px;
+
+        @media (max-width:1000px) {
+            font-size: 16px;
+        }
+    }
+    .cards{
+        display: flex;
+        gap: 30px;
+        
+
+        @media (max-width: 1000px) {
+            display: block;
+        }
+    }
+
+    @media (max-width:1400px) {
+        width: 95%;
+    }
+
+}

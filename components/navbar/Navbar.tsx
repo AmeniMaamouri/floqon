@@ -27,7 +27,7 @@ const Navbar = () => {
                     <a href='/'>Contact</a>
                 </div>
                 <div className={styles.buttons}>
-                    <img src='/img/basket.svg' />
+                    <img style={{ cursor: 'pointer' }} src='/img/basket.svg' />
                     <BaseButton customStyle={{ width: "144px", maxWidth: '144px', fontSize: '16px', fontWeight: '500' }} text='Boutique' />
                 </div>
 

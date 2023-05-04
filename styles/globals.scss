@@ -3,16 +3,19 @@
     src: url('../fonts/PlusJakartaDisplay-Bold.otf');
     font-weight: 700;
 }
+
 @font-face {
     font-family: "jakarta";
     src: url('../fonts/PlusJakartaDisplay-Regular.otf');
     font-weight: 400;
 }
+
 @font-face {
     font-family: "jakarta";
     src: url('../fonts/PlusJakartaDisplay-Light.otf');
     font-weight: 300;
 }
+
 @font-face {
     font-family: "jakarta";
     src: url('../fonts/PlusJakartaDisplay-Medium.otf');
@@ -32,4 +35,35 @@ body {
     border: 0;
     font-size: 100%;
 
+}
+
+.slider-wrapper {
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    @media (max-width:1000px) {
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+
+}
+
+.control-dots {
+    li {
+        box-shadow: none;
+    }
+    .dot{
+        background: white !important;
+        box-shadow: none !important;
+        opacity: 1 !important;
+        width: 12px !important;
+        height: 12px !important;
+    }
+    .dot.selected {
+        background: #9B457A !important;
+    }
+
+}
+.dv-star-rating-star{
+    margin-right: 4px;
 }
