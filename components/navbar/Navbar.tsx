@@ -16,7 +16,7 @@ const Navbar = () => {
 
                 <div className={styles.logo}>
                     <AiOutlineMenu onClick={toggleDrawer} className={styles.iconOpenDrawer} />
-                    <img src='/img/logo.svg' />
+                    <a href='/'><img src='/img/logo.svg' /></a>
                 </div>
                 <div className={styles.items}>
                     <a href='/'>Accueil</a>
