@@ -52,18 +52,53 @@ body {
     li {
         box-shadow: none;
     }
-    .dot{
+
+    .dot {
         background: white !important;
         box-shadow: none !important;
         opacity: 1 !important;
         width: 12px !important;
         height: 12px !important;
     }
+
     .dot.selected {
         background: #9B457A !important;
     }
 
 }
-.dv-star-rating-star{
+
+.dv-star-rating-star {
     margin-right: 4px;
+}
+
+.layout .hero {
+    display: flex;
+}
+
+.layout .content {
+    width: calc(100% - 260px);
+    word-break: break-all;
+    margin-left: 260px;
+    margin-top: 65px;
+    height: calc(100vh - 65px);
+    padding: 30px;
+
+    table {
+
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        background-color: white;
+    }
+
+    td,
+    th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
 }

@@ -1,0 +1,49 @@
+.container {
+    text-align: center;
+
+    h1 {
+        color: #183282;
+        font-size: 48px;
+        margin-top: 100px;
+        margin-bottom: 60px;
+
+        @media (max-width:1000px) {
+            margin-top: 50px;
+            font-size: 28px;
+        }
+    }
+
+    .video {
+        iframe {
+            background: #EBB22C;
+            border-radius: 30px;
+
+            @media (max-width:740px) {
+                width: 100%;
+            }
+
+        }
+    }
+
+    .videoContainer {
+        border: 30px solid #EBB22C;
+        background: #EBB22C;
+        border-radius: 30px;
+        width: fit-content;
+        margin: auto;
+        display: flex;
+        vertical-align: middle;
+        align-items: center;
+        justify-content: center;
+
+        @media (max-width:740px) {
+            width: 90%;
+            border: 20px solid #EBB22C;
+        }
+
+        .playBtn {
+            position: absolute;
+            cursor: pointer;
+        }
+    }
+}

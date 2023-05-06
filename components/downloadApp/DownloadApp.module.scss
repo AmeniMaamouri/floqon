@@ -29,7 +29,7 @@
         margin-bottom: 40px;
 
         @media (max-width:1000px) {
-           font-size: 28px;
+            font-size: 28px;
         }
     }
 
@@ -49,9 +49,29 @@
     img {
         width: 45%;
         margin-bottom: -10%;
+
         @media (max-width:1000px) {
             width: 60%;
             margin-left: 10%;
         }
+    }
+    
+    .hero__downloadApp{
+        margin-bottom: 50px;
+        @media (max-width: 638px) {
+            margin-bottom: 0px;
+        }
+    }
+    .hero__downloadApp img:nth-child(1) {
+        max-width: 180px;
+        margin-right: 50px;
+       @media (max-width: 638px) {
+           margin-top: 40px;
+           margin-bottom: 0px;
+       }
+    }
+
+    .hero__downloadApp img:nth-child(2) {
+        width: 180px;
     }
 }
