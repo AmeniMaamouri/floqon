@@ -7,12 +7,13 @@ const Rating = () => {
     return (
         <div className={styles.container}>
             <div className={styles.content}>
-                <h2>Ce qu'ils disent de Floqon</h2>
+                <h2>Ce qu{"'"}ils disent de Floqon</h2>
                 <p className={styles.description}>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page</p>
             </div>
             <div>
                 <Carousel
                     autoPlay
+                    swipeable={false}
                     infiniteLoop
                     interval={10000}
                     showArrows={false}

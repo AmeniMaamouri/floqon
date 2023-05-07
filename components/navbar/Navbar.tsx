@@ -4,6 +4,7 @@ import { AiOutlineMenu } from 'react-icons/ai'
 import useDrawer from '@/hooks/useDrawer';
 import Drawer from 'react-modern-drawer'
 import 'react-modern-drawer/dist/index.css'
+import Link from 'next/link';
 
 
 const Navbar = () => {
@@ -16,15 +17,15 @@ const Navbar = () => {
 
                 <div className={styles.logo}>
                     <AiOutlineMenu onClick={toggleDrawer} className={styles.iconOpenDrawer} />
-                    <a href='/'><img src='/img/logo.svg' /></a>
+                    <Link href='/'>  <img src='/img/logo.svg' alt="" /></Link>
                 </div>
                 <div className={styles.items}>
-                    <a href='/'>Accueil</a>
-                    <a href='/'>À propos</a>
-                    <a href='/'>Soutiens</a>
-                    <a href='/'> Blog</a>
-                    <a href='/'>FAQ</a>
-                    <a href='/'>Contact</a>
+                    <Link href='/'>Accueil</Link>
+                    <Link href='/a-propos'> À propos</Link>
+                    <Link href='/soutiens'> Soutiens</Link>
+                    {/* <Link>  <a href='/blog'> Blog</a></Link> */}
+                    <Link href='/faq'> FAQ</Link>
+                    <Link href='/contactez-nous'> Contact</Link>
                 </div>
                 <div className={styles.buttons}>
                     <img style={{ cursor: 'pointer' }} src='/img/basket.svg' />
@@ -44,15 +45,17 @@ const Navbar = () => {
 
                 >
                     <div className={styles.items}>
-                        <a href='/'>Accueil</a>
-                        <a href='/'>À propos</a>
-                        <a href='/'>Soutiens</a>
-                        <a href='/'> Blog</a>
-                        <a href='/'>FAQ</a>
-                        <a href='/'>Contact</a>
+                        <Link href='/'>Accueil</Link>
+                        <Link href='/a-propos'> À propos</Link>
+                        <Link href='/soutiens'> Soutiens</Link>
+                        {/* <Link>  <a href='/blog'> Blog</a></Link> */}
+                        <Link href='/faq'> FAQ</Link>
+                        <Link href='/contactez-nous'> Contact</Link>
                         <div className={styles.buttons} >
-                            <a href='/'>Panier</a>
-                            <a href='/'>Boutique</a>
+
+                            <Link href=''> Panier</Link>
+                            <Link href=''> Boutique</Link>
+
                         </div>
                     </div>
                 </Drawer>
