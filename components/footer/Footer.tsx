@@ -20,7 +20,7 @@ const Footer = () => {
                     <div className={styles.pp}>
                         <Link href="/conditions-generales">  <p className={styles.linkWidget}>Conditions Générales d{"'"}Utilisation</p></Link>
                         <Link href="/conditions-generales-de-vente"> <p className={styles.linkWidget}></p>Conditions Générales de Vente</Link>
-                        <Link href="/mentions-legales"> <a ><p className={styles.linkWidget}></p>Mentions Légales</a></Link>
+                        <Link href="/mentions-legales"> <p className={styles.linkWidget}></p>Mentions Légales</Link>
                         <Link href="/utilisation-des-cookies">  <p className={styles.linkWidget}></p>Utilisation des cookies</Link>
                         <Link href="/politique-de-confidentialite"><p className={styles.linkWidget}></p>Politique de confidentialités</Link>
                     </div>
