@@ -54,6 +54,9 @@ const Faq = () => {
             <p>Cela dépend également du pack choisi : un jeu <u>avec ou sans la réglette et les jetons</u>.
                 Pour plus de détails sur les prix, veuillez consulter notre boutique en ligne ici : “<u>www.floqon-store.com </u>“.</p>
 
+            <h2>5. OÙ PEUT-ON ACHETER LES JEUX FLOQON ?</h2>
+            <p>Pour l’instant, les jeux Floqon ne sont pas encore distribués dans les magasins de jeux classiques ou dans la grande distribution ; mais cela ne saurait tarder, des discussions et partenariats sont en cours. En attendant, vous pouvez consulter et voir tous nos jeux physiques disponibles, directement sur notre boutique en ligne, à l’adresse suivante : “<u>www.floqon-store.com</u>“.</p>
+                
             <h2>6. QUELS SONT LES DIFFÉRENTS ÉLÉMENTS QUI COMPOSENT UN JEU FLOQON ?</h2>
             <p>En plus du modèle de jeu choisi, entre les jeux de cartes et les jeux de plateau que
                 nous proposons, on peut y ajouter à chacun, <u><b>les jetons Alphabet</b></u> avec lesquels on
@@ -127,13 +130,26 @@ const Faq = () => {
                 d{"'"}apprendre des mots nouveaux, plutôt que de gagner à tout prix. Il est donc
                 important de rester <b>Fairplay</b> quand vous perdez, car au final, gagnant ou perdant, on
                 apprend toujours lors d’une partie de jeu Floqon.</p>
-            <h2>12. PEUT-ON UTILISER LES JEUX FLOQON DANS D’AUTRES LANGUES AUTRES QUE
-                LE FRANÇAIS ?</h2>
-            <p>Bien sûr, les jeux Floqon peuvent s’adapter facilement à d’autres langues, y compris
-                “les dialectes”, dont l’écriture est similaire ou proche de l’alphabet français. Mais,
-                bientôt, nous sortirons une adaptation dans plusieurs langues avec, pour chacune,
-                leur alphabet respectif.</p>
-            <h2>13. QUELS SONT LES DIFFÉRENTS MODES DE JOUER À FLOQON ALPHABET ?</h2>
+            <h2>12. LES LISTES DES MOTS DES THÈMES SONT-ELLES TOUTES COMPLÈTES ?</h2>
+            <p>Non, certaines de nos listes sont encore <b>non exhaustives</b>. Si vous constatez un mot
+qui manque à une liste, n’hésitez pas à nous le partager ; nous nous ferons un réel
+plaisir, après vérification bien sûr, de l’ajouter lors de notre prochaine mise à jour.</p>
+
+<h2>13. QUELS TYPES DE THÈMES ABORDEZ-VOUS SUR FLOQON ?</h2>
+<p>Sur Floqon, nous aborderons tous les thèmes qu’il nous sera possible de lister et
+d’imager, allant des thèmes du quotidien jusqu’à ceux insolites, comme les planètes,
+les étoiles, les galaxies, etc. n’hésitez surtout pas à nous partager des noms de
+thème que vous souhaiteriez voir dans les propositions sur Floqon.</p>
+
+<h2>14. PEUT-ON UTILISER LES JEUX FLOQON DANS D’AUTRES LANGUES AUTRES QUE
+LE FRANÇAIS ?</h2>
+<p>Bien sûr, les jeux Floqon peuvent s’adapter facilement à d’autres langues, y compris
+“les dialectes”, dont l’écriture est similaire ou proche de l’alphabet français. Mais,
+bientôt, nous sortirons une adaptation dans plusieurs langues avec, pour chacune,
+leur alphabet respectif.</p>
+
+
+            <h2>15. QUELS SONT LES DIFFÉRENTS MODES DE JOUER À FLOQON ALPHABET ?</h2>
             <p>Il existe plusieurs possibilités de jouer à Floqon Alphabet. Quand vous démarrez une
                 partie de jeu “Floqon Alphabet”, libre à vous de choisir le mode de jeu qui vous
                 convient le mieux parmi toutes les propositions ci-dessous. Ainsi, afin de varier un
@@ -186,26 +202,27 @@ const Faq = () => {
                 une lettre de l’alphabet tirée au hasard. À tour de rôle, chaque joueur
                 dispose de 5 minutes pour donner sa liste de mots corrects.</li></ul>
 
-            <h2>14. PEUT-ON JOUER AVEC DES RÈGLES ET MODES PERSONNALISÉS ?</h2>
+            <h2>16. PEUT-ON JOUER AVEC DES RÈGLES ET MODES PERSONNALISÉS ?</h2>
             <p>Oui, en présentiel, il n’y a pas de règles fixes. Les joueurs peuvent modifier les règles
                 de jeu Floqon pour s{"'"}adapter à leurs préférences, tant que l’ensemble des
                 participants à une même partie de jeu sont bien d{"'"}accord.</p>
 
-            <h2>15. L’APPLICATION FLOQON EST-ELLE DISPONIBLE SUR LES STORES ?</h2>
+            <h2>17. L’APPLICATION FLOQON EST-ELLE DISPONIBLE SUR LES STORES ?</h2>
             <p>Oui, l’application Floqon est disponible sur les stores, Android et iOS. Vous pouvez la
                 télécharger dès maintenant, découvrir tous nos thèmes ou catégories et commencer
                 à apprendre des mots nouveaux.</p>
             <p><u><b>Notez Bien </b></u>: nous ajouterons régulièrement de nouveaux thèmes ou nouvelles
                 catégories dans l’application mobile et la boutique en ligne. Restez donc connectés
                 et à l’affût !</p>
-            <h2>16. PEUT-ON INVITER D’AUTRES JOUEURS EN LIGNE, À VENIR PARTICIPER À UNE
+
+            <h2>18. PEUT-ON INVITER D’AUTRES JOUEURS EN LIGNE, À VENIR PARTICIPER À UNE
                 PARTIE DE JEU FLOQON ? SI OUI, JUSQU’À COMBIEN DE JOUEURS ?</h2>
             <p>Bien sûr ! L’application Floqon a été pensée aussi pour permettre aux personnes de
                 se confronter à d’autres joueurs, à travers le monde entier ; tout cela dans un cadre
                 amusant. Vous pouvez ainsi inviter jusqu’à trois (3) personnes, en plus de vous ; ce
                 qui offre une possibilité d’aller jusqu’à <b>quatre (4) joueurs présents lors d’une partie</b>
                 et d’offrir une belle ambiance de compétition.</p>
-            <h2>17. VOUS AVEZ D’AUTRES QUESTIONS ?</h2>
+            <h2>19. VOUS AVEZ D’AUTRES QUESTIONS ?</h2>
             <p>* Vous pouvez nous contacter à l’adresse mail suivante : <b>contact@floqon.com</b></p>
             <p>* Ou laissez-nous un SMS / Message vocal au : <b>0033 - [ 0 ] 7 67 59 59 14</b></p>
             <h1>L’ÉQUIPE FLOQON VOUS REMERCIE !</h1>
