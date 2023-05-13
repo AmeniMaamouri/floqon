@@ -1,9 +1,8 @@
-import useApi from '@/hooks/useApi'
-import { useState } from 'react'
-import styles from './Newsletter.module.scss'
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 import axios from 'axios';
+import { useState } from 'react';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import styles from './Newsletter.module.scss';
 
 const Newsletter = () => {
     const [email, setEmail] = useState<string>("")

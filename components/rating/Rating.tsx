@@ -56,7 +56,7 @@ const Rating = () => {
 
                     <div className={styles.cards}>
                     <BaseCard img={'/img/Jacques-Bernadin.jpg'} name={"Jacques Bernabin"} rating={5} comment={"J'aime beaucoup ce jeu Floqon, car il est amusant, éducatif et intergénérationnel. Je le recommande vraiment à tous ceux qui cherchent des moyens amusants d'apprendre et d'améliorer leur vocabulaire."} customStyle={"WHITE"} />
-                    <BaseCard img={'/img/Ming-Li.jpg'} name={"Ming Li"} rating={5} comment={"Cette application Floqon est géniale ! J'aime beaucoup les défis quotidiens et le fait que je peux suivre ma progression au fil du temps. C'est un excellent moyen de se motiver pour continuer à apprendre de nouveaux mots."} customStyle={"PURPLE"} />
+                    <BaseCard img={'/img/Ming-Li.jpg'} name={"Ming Li"} rating={5} comment={"Cette application Floqon est géniale ! J'aime beaucoup les défis quotidiens et le fait que je peux suivre ma progression au fil du temps. C'est un excellent moyen de se motiver pour continuer à apprendre de nouveaux mots."} customStyle={"WHITE"} />
                     </div>
 
             

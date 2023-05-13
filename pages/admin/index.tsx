@@ -1,12 +1,10 @@
 import AuthLayout from "@/components/layout";
-import { useEffect, useState } from "react";
-import { VscCopy } from "react-icons/vsc";
-import { FaCopy } from "react-icons/fa";
-import dynamic from "next/dynamic";
-const BaseTable = dynamic(() => import("@/components/baseTable/BaseTable"), { ssr: false });
-import { CopyToClipboard } from 'react-copy-to-clipboard';
-import useApi from "@/hooks/useApi";
 import axios from "axios";
+import dynamic from "next/dynamic";
+import { useEffect, useState } from "react";
+import { CopyToClipboard } from 'react-copy-to-clipboard';
+import { FaCopy } from "react-icons/fa";
+const BaseTable = dynamic(() => import("@/components/baseTable/BaseTable"), { ssr: false });
 
 const Admin = () => {
     const [emails, setEmail] = useState<string[]>([])
