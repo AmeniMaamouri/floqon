@@ -6,24 +6,31 @@ import dynamic from "next/dynamic";
 const BaseTable = dynamic(() => import("@/components/baseTable/BaseTable"), { ssr: false });
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import useApi from "@/hooks/useApi";
+import axios from "axios";
 
 const Admin = () => {
-    const [emails, setEmail] = useState<string[]>(["a@sd.df", "b@ds.df"])
-    const [listEmailsSeperatedByCommas, setListEmailsSeperatedByCommas] = useState("s")
-    const { fetchApi, setDataApi, dataFetched, error, loading } = useApi({ url: "hg", request: "GET" })
+    const [emails, setEmail] = useState<string[]>([])
+    const [listEmailsSeperatedByCommas, setListEmailsSeperatedByCommas] = useState("")
+
+    const fetchEmails = async () => {
+        try {
+            const res:any = await axios(`http://localhost:3000/api/emails`, {
+                method: 'GET',
+            })
+            setEmail(res.data.emails)
+            /* seperated emails by commas */
+            const str2 = res.data.emails.join(', ');
+            setListEmailsSeperatedByCommas(str2)
+
+        } catch (error: any) {
+            console.log(error)
+        }
+    }
+
 
     useEffect(() => {
         /* Api heere fetch */
-        fetchApi()
-
-        if (dataFetched) {
-            setEmail(["a@sd.df", "b@ds.df"])
-            /* seperated emails by commas */
-            const str2 = emails.join(', ');
-            setListEmailsSeperatedByCommas(str2)
-            console.log('str2', str2)
-        }
-
+        fetchEmails()
 
     }, [])
 
@@ -42,7 +49,7 @@ const Admin = () => {
                         </CopyToClipboard>}
 
                     </div>
-                    <BaseTable />
+                     {emails?.length !== 0 && <BaseTable emails={emails} />}
                 </div>
             </AuthLayout>
         </div>

@@ -3,6 +3,7 @@ import { useState } from 'react'
 import styles from './Newsletter.module.scss'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import axios from 'axios';
 
 const Newsletter = () => {
     const [email, setEmail] = useState<string>("")
@@ -17,41 +18,34 @@ const Newsletter = () => {
         progress: undefined,
         theme: "colored",
     });;
-    /* Api Informations */
-    const { fetchApi, setDataApi, dataFetched, error, loading } = useApi({ url: "hg", request: "POST" })
 
-
-    const handleSendEmail = (event: any) => {
+    const handleSendEmail = async (event: any) => {
         event.preventDefault()
         const regexExpressionforEmail = new RegExp(/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g)
         const isEmailValid = regexExpressionforEmail.test(email)
 
         if (isEmailValid) {
             /* Fire api  */
-            setDataApi({ email: 'ameni@df.df' })
-            fetchApi()
+            try {
+                const res = await axios(`http://localhost:3000/api/emails`, {
+                    method: 'POST',
+                    data: { email }
+                })
 
-            /* delete them */
-            /* Show toast */
-  notify()
-  /* Clear input  */
-  setEmail("")
-  setErrorInput("")
-   /* delete them */
-
-            /* Email existe */
-            /* if (error) setErrorInput("Email existe déja") */
-
-            /* Success */
-            if (dataFetched) {
+                /* Success */
                 /* Show toast */
                 notify()
                 /* Clear input  */
                 setEmail("")
                 setErrorInput("")
-            }
 
+
+            } catch (error: any) {
+                /* Email existe */
+                setErrorInput("Email existe déja")
+            }
         }
+
         if (!isEmailValid) {
             setErrorInput("Invalide email")
         }

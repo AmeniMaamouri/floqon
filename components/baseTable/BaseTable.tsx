@@ -2,7 +2,7 @@ import { VscCopy } from "react-icons/vsc";
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 
-const BaseTable = () => {
+const BaseTable = ({ emails }: any) => {
     return (
         <table style={{ marginTop: '60px' }}>
             <tr>
@@ -10,17 +10,12 @@ const BaseTable = () => {
                 <th style={{ textAlign: 'center' }}>Actions</th>
             </tr>
 
-            <tr>
-                <td>Alfreds Futterkiste</td>
-                <CopyToClipboard text={"Alfreds Futterkiste"}>
+            {emails.map((email:any) => <tr>
+                <td>{email}</td>
+                <CopyToClipboard text={email}>
                     <td style={{ textAlign: 'center', cursor: 'pointer' }}><VscCopy size={18} /></td>
                 </CopyToClipboard>
-            </tr>
-
-            <tr>
-                <td>Centro comercial Moctezuma</td>
-                <td style={{ textAlign: 'center', cursor: 'pointer' }}><VscCopy size={18} /></td>
-            </tr>
+            </tr>)}
 
 
         </table>

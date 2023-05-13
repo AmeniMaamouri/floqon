@@ -17,19 +17,19 @@ export default async function handleEmails(req, res) {
             const isEmailValid = await regexExpressionforEmail.test(email)
 
             if (!isEmailValid) {
-                res.json({ code: 400, message: "Invalid email" })
+                res.status(400).json({ code: 400, message: "Invalid email" })
             } else if (isExist !== undefined) {
-                return res.json({ code: 500, message: "Email is exist" })
+                 res.status(500).json({ code: 500, message: "Email is exist" })
             } else {
                 await levelDBStore.put(short.uuid(), email)
-                return res.json({ code: 201, message: "Email has ben saved" })
+                 res.status(201).json({ code: 201, message: "Email has ben saved" })
             }
         }
 
         const { email } = req.body
        
         if (!email) {
-            res.json({ error: "email cannot by emty or null" });
+            res.status(400).json({ error: "email cannot by emty or null" });
         }
         await insertEmail(email)
 
@@ -40,9 +40,9 @@ export default async function handleEmails(req, res) {
         }
 
         await getEmails().then((emails) => {
-            res.json({ emails });
+            res.status(200).json({ emails });
         }).catch((error) => {
-            res.json({ error: error.message });
+            res.status(500).json({ error: error.message });
         });
     }
   
