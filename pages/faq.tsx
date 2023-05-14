@@ -225,8 +225,10 @@ leur alphabet respectif.</p>
             <h2>19. VOUS AVEZ D’AUTRES QUESTIONS ?</h2>
             <p>* Vous pouvez nous contacter à l’adresse mail suivante : <b>contact@floqon.com</b></p>
             <p>* Ou laissez-nous un SMS / Message vocal au : <b>0033 - [ 0 ] 7 67 59 59 14</b></p>
-            <h1>L’ÉQUIPE FLOQON VOUS REMERCIE !</h1>
-            <h1>IMAGE HERE </h1>
+            <h1 style={{marginTop:'80px'}}>L’ÉQUIPE  FLOQON  VOUS  REMERCIE !</h1>
+           <div style={{textAlign:"center"}}>
+           <img  src="/img/logo3x.png" />
+           </div>
         </div>
         <Footer />
     </div>);
