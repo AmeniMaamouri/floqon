@@ -6,6 +6,7 @@ export default function Document() {
       <Head />
       <body>
         <Main />
+        <title>Floqon</title>
         <NextScript />
       </body>
     </Html>

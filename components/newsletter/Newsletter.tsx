@@ -26,7 +26,7 @@ const Newsletter = () => {
         if (isEmailValid) {
             /* Fire api  */
             try {
-                const res = await axios(`http://localhost:3000/api/emails`, {
+                const res = await axios(`http://floqon.com:3000/api/emails`, {
                     method: 'POST',
                     data: { email }
                 })
