@@ -12,7 +12,7 @@ const Admin = () => {
 
     const fetchEmails = async () => {
         try {
-            const res:any = await axios(`http://floqon.com:3000/api/emails`, {
+            const res:any = await axios(`https://api.floqon.com/api/emails`, {
                 method: 'GET',
             })
             setEmail(res.data.emails)
