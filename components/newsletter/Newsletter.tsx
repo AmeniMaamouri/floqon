@@ -53,7 +53,8 @@ const Newsletter = () => {
     return (
         <div className={styles.container}>
             <h2>Newsletter</h2>
-            <p className={styles.description}>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page</p>
+            <p className={styles.description}>Dès maintenant, inscrivez-vous gratuitement à notre newsletter et recevez en exclusivité nos
+nouveautés en avant-première.</p>
 
             <form onSubmit={handleSendEmail} className={styles.pp}>
                 <div className={styles.newsLettersEmail}>

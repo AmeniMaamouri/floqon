@@ -10,7 +10,7 @@ const ConstactUs = () => {
             <div className={styles.content}>
                 <div className={styles.map}>
                     <img className={styles.images} src="./img/gps.png" alt="" />
-                    <p><b>Adresse FLOQON :</b></p>
+                    <p><b>Adresse :</b></p>
                     <p>128 Rue La Boétie</p>
                     <p>75008 Paris</p>
                 </div>

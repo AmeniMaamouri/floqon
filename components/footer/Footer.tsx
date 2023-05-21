@@ -8,11 +8,10 @@ const Footer = () => {
                 <div className={styles.firstWidget}>
                     <a className={styles.logoFooter} href=""><img src="/img/logo_footer.svg" alt="" /></a>
                     <div className={styles.socialMedia}>
-                        <a href=""><img src="/img/facebook.svg" alt="" /></a>
-                        <a href=""><img src="/img/twitter.svg" alt="" /></a>
-                        <a href=""><img src="/img/googleplus.svg" alt="" /></a>
-                        <a href=""><img src="/img/linkedin.svg" alt="" /></a>
-                        <a href=""><img src="/img/tiktok.svg" alt="" /></a>
+                        <a href="https://www.facebook.com/profile.php?id=100087532885741"><img src="/img/facebook.svg" alt="" /></a>
+                        <a href="https://www.instagram.com/floqon/"><img className={styles.iconSocialMedia} src="/img/instagram.svg" alt="" /></a>
+                        <a href="https://www.youtube.com/channel/UCBXC-Yr2w_LudMZRnqB-zZA"><img className={styles.iconSocialMedia} src="/img/youtube.svg" alt="" /></a>
+                        <a href="https://www.tiktok.com/@floqon"><img src="/img/tiktok.svg" alt="" /></a>
                     </div>
                 </div>
                 <div className={styles.secondWidget}>
@@ -22,16 +21,16 @@ const Footer = () => {
                         <Link href="/conditions-generales-de-vente"> <p className={styles.linkWidget}></p>Conditions Générales de Vente</Link>
                         <Link href="/mentions-legales"> <p className={styles.linkWidget}></p>Mentions Légales</Link>
                         <Link href="/utilisation-des-cookies">  <p className={styles.linkWidget}></p>Utilisation des cookies</Link>
-                        <Link href="/politique-de-confidentialite"><p className={styles.linkWidget}></p>Politique de confidentialités</Link>
+                        <Link href="/politique-de-confidentialite"><p className={styles.linkWidget}></p>Politique de confidentialité</Link>
                     </div>
                 </div>
 
                 <div className={styles.thirddWidget}>
                     <a href=""><p className={styles.titleWidget}>Contactez-nous</p></a>
-                    <a href=""><p className={styles.linkWidget}>Adresse: 97 Boulevard André Sautel, 17000 La Rochelle.</p></a>
+                    <a href=""><p className={styles.linkWidget}>Adresse: 128 Rue La Boétie 75008 Paris</p></a>
                     <div className={styles.constactWidget}>
                         <img src="./img/phone.svg" alt="" />
-                        <a href=""><p className={styles.linkWidget}>Tél.: +33 1 23 45 67 89</p></a>
+                        <a href=""><p className={styles.linkWidget}>Tél.: 0033 (0) 7 67 59 59 14</p></a>
                     </div>
                     <div className={styles.constactWidget}>
                         <img src="./img/email.svg" alt="" />
@@ -50,7 +49,7 @@ const Footer = () => {
                 </div>
             </div>
             <hr className={styles.divider} />
-            <p className={styles.year}>Copyright {new Date().getFullYear()} FLOQON</p>
+            <p className={styles.year}>Copyright {new Date().getFullYear()}&nbsp; - &nbsp; FLOQON</p>
         </div>
     );
 }

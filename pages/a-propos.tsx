@@ -42,7 +42,7 @@ const About = () => {
             </ul>
 
             <p>N’hésitez pas à consulter notre FAQ pour plus de détails ou à nous écrire si vous
-                avez des questions ou suggestions ! Voir le lien “ <u><a href="">Contact</a></u> ” à cet effet.</p>
+                avez des questions ou suggestions ! Voir le lien “ <u><a href="https://floqon.com/contactez-nous">Contact</a></u> ” à cet effet.</p>
         </div>
         <Footer />
     </div>);
