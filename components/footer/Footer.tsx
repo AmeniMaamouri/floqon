@@ -6,7 +6,7 @@ const Footer = () => {
         <div className={styles.container}>
             <div className={styles.footerWidget}>
                 <div className={styles.firstWidget}>
-                    <a className={styles.logoFooter} href=""><img src="/img/logo_footer.svg" alt="" /></a>
+                    <a className={styles.logoFooter} href=""><img src="/img/logo_footer-2.svg" alt="" /></a>
                     <div className={styles.socialMedia}>
                         <a href="https://www.facebook.com/profile.php?id=100087532885741"><img src="/img/facebook.svg" alt="" /></a>
                         <a href="https://www.instagram.com/floqon/"><img className={styles.iconSocialMedia} src="/img/instagram.svg" alt="" /></a>
@@ -27,7 +27,11 @@ const Footer = () => {
 
                 <div className={styles.thirddWidget}>
                     <a href=""><p className={styles.titleWidget}>Contactez-nous</p></a>
-                    <a href=""><p className={styles.linkWidget}>Adresse: 128 Rue La Boétie 75008 Paris</p></a>
+                    <div className={styles.constactWidget}>
+                        <img src="./img/address-icon.svg" alt="" />
+                        <a href=""><p className={styles.linkWidget}>Adresse: 128 Rue La Boétie 75008 Paris</p></a>
+                    </div>
+                  
                     <div className={styles.constactWidget}>
                         <img src="./img/phone.svg" alt="" />
                         <a href=""><p className={styles.linkWidget}>Tél.: 0033 (0) 7 67 59 59 14</p></a>

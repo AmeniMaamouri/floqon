@@ -15,7 +15,7 @@ const Video = () => {
         <div className={styles.container}>
             <h1>Présentation de Floqon</h1>
             <div className={styles.videoContainer}>
-                <ReactPlayer className={styles.video} controls playing={isVideoPlays} url='https://www.youtube.com/embed/fVjQ9jHL1ss' />
+                <ReactPlayer className={styles.video} controls playing={isVideoPlays} url='https://www.youtube.com/embed/020eTayj_OE' />
                 {!isVideoPlays && <img onClick={handlePlayVideo} className={styles.playBtn} src='/img/play.png' />}
             </div>
         </div>

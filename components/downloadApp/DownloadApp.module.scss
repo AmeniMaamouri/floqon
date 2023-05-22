@@ -21,6 +21,10 @@
             width: 90%;
             text-align: center;
         }
+        @media (max-width:768px) {
+            width: 75%;
+            text-align: center;
+        }
     }
 
     h2 {
@@ -44,6 +48,7 @@
             max-width: 100%;
             font-size: 18px;
         }
+        
     }
 
     img {
