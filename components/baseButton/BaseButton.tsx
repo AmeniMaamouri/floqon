@@ -9,3 +9,4 @@ const BaseButton = ({ text, customStyle }: { text: string, customStyle: { maxWid
 }
 
 export default BaseButton;
+

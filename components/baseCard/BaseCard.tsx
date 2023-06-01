@@ -14,7 +14,6 @@ const BaseCard = ({ img, name, rating, comment, customStyle }: { img: string, na
                             starCount={5}
                             value={rating}
                             editing={false}
-                         
                             renderStarIcon={() => <img src={customStyle === "PURPLE" ? '/img/startForPurple.png' : '/img/Star.png'} />}
                         />
                     </div>

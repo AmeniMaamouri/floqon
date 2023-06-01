@@ -1,0 +1,53 @@
+.bgNavBar {
+    background: #9B457A;
+    padding-bottom: 400px;
+     
+    a {
+        color: #ffffff ;
+    }
+}
+.container {
+  padding: 0 150px;
+  margin-top: -400px;
+
+  h1 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 108px;
+    letter-spacing: -3px;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  .aboutImg {
+    width: 90%;
+    height: 437px;
+    border-radius: 46px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    @media(max-width : 1100px) {
+        width: 95%;
+    }
+  }
+  .description {
+    
+    text-align: left;
+    width: 90%;
+    margin: 68px auto;
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+      color: #4e545f;
+      opacity: 0.8;
+      margin-bottom: 50px;
+    }
+  }
+
+  @media(max-width :1100px) {
+    padding: 0 ;
+  }
+}
