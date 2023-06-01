@@ -29,16 +29,16 @@ const Footer = () => {
                     <a href=""><p className={styles.titleWidget}>Contactez-nous</p></a>
                     <div className={styles.constactWidget}>
                         <img src="./img/address-icon.svg" alt="" />
-                        <a href=""><p className={styles.linkWidget}>Adresse: 128 Rue La Boétie 75008 Paris</p></a>
+                        <a href=""><p className={styles.linkWidget}>Adresse&nbsp;:&nbsp; 128 Rue La Boétie 75008 Paris</p></a>
                     </div>
                   
                     <div className={styles.constactWidget}>
                         <img src="./img/phone.svg" alt="" />
-                        <a href=""><p className={styles.linkWidget}>Tél.: 0033 (0) 7 67 59 59 14</p></a>
+                        <a href=""><p className={styles.linkWidget}>Tél.&nbsp;:&nbsp; 0033 (0) 7 67 59 59 14</p></a>
                     </div>
                     <div className={styles.constactWidget}>
                         <img src="./img/email.svg" alt="" />
-                        <a href=""><p className={styles.linkWidget}>Mail: contact@floqon.com</p></a>
+                        <a href=""><p className={styles.linkWidget}>Mail&nbsp;:&nbsp; contact@floqon.com</p></a>
                     </div>
                 </div>
 

@@ -9,7 +9,7 @@ const Rating = () => {
             <div className={styles.content}>
                 <h2>Ce qu{"'"}ils disent de Floqon</h2>
                 <p className={styles.description}>Les meilleures recommandations sont celles de nos premiers utilisateurs. Ils ont testé, ils ont
-                    approuvé Toi aussi, viens découvrir l’expérience des jeux Floqon !</p>
+                    approuvé. Toi aussi, viens découvrir l’expérience des jeux Floqon !</p>
             </div>
             <div>
                 <Carousel
@@ -22,7 +22,7 @@ const Rating = () => {
                     showStatus={false}
                 >
                     <div className={styles.cards}>
-                        <BaseCard img={'/img/Amina-Diop.jpg'} name={"Amina Diop"} rating={5} comment={"J'ai acheté le jeu Floqon pour mes enfants et je suis très impressionné par la façon dont il les a aidés à améliorer leur vocabulaire. Ils s'amusent tout en apprenant de nouveaux mots et thèmes. Je le recommande vivement !"} customStyle={"WHITE"} />
+                        <BaseCard img={'/img/Amina-Diop.jpg'} name={"Amina Diop"} rating={5} comment={"J'ai acheté le jeu Floqon pour mes enfants et je suis très impressionnée par la façon dont il les a aidés à améliorer leur vocabulaire. Ils s'amusent tout en apprenant de nouveaux mots et thèmes. Je le recommande vivement !"} customStyle={"WHITE"} />
                         <BaseCard img={'/img/Ahmed-Hassan.jpg'} name={"Ahmed Hassan"} rating={5} comment={"L’application Floqon est incroyable ! J'adore les différents jeux et niveaux de difficulté que l’on y retrouve, ainsi que les défis quotidiens pour m'aider à améliorer mon vocabulaire. C'est un excellent moyen de s'amuser tout en apprenant."} customStyle={"PURPLE"} />
                         <BaseCard img={'/img/Anastasia-Ivanova.jpg'} name={"Anastasia Ivanova"} rating={5} comment={"Ce jeu est excellent pour les soirées en famille ou entre amis. Nous avons eu beaucoup de plaisir à chercher des mots pour différents thèmes ou catégories et à voir qui de nous pouvait en trouver le plus grand nombre. C'est un jeu facile à comprendre et très divertissant."} customStyle={"WHITE"} />
                     </div>
@@ -57,7 +57,7 @@ const Rating = () => {
 
                     <div className={styles.cards}>
                         <BaseCard img={'/img/Jacques-Bernadin.jpg'} name={"Jacques Bernabin"} rating={5} comment={"J'aime beaucoup ce jeu Floqon, car il est amusant, éducatif et intergénérationnel. Je le recommande vraiment à tous ceux qui cherchent des moyens amusants d'apprendre et d'améliorer leur vocabulaire."} customStyle={"WHITE"} />
-                        <BaseCard img={'/img/Astou-Konaté.jpg'} name={"Astou Konaté"} rating={5} comment={" Je suis vraiment impressionnée par ce jeu, que ce soit sous form physique ou en tant qu'application mobile. C'est un excellent moyen de s'amuser tout en améliorant son vocabulaire. Les catégories sont stimulantes et variées, et j'adore le défi de trouver des mots commençant par une lettre donnée. Que je joue avec mes amis, autour d'une table ou sur mon téléphone lors de mes déplacements, je suis toujours captivée par ce jeu. Je le recommande à tous ceux qui cherchent à enrichir leur vocabulaire et à passer un bon moment !"} customStyle={"PURPLE"} />
+                        <BaseCard img={'/img/Astou-Konaté.jpg'} name={"Astou Konaté"} rating={5} comment={" Je suis vraiment impressionnée par ce jeu, que ce soit sous forme physique ou en tant qu'application mobile. C'est un excellent moyen de s'amuser tout en améliorant son vocabulaire. Les catégories sont stimulantes et variées, et j'adore le défi de trouver des mots commençant par une lettre donnée. Que je joue avec mes amis, autour d'une table ou sur mon téléphone lors de mes déplacements, je suis toujours captivée par ce jeu. Je le recommande à tous ceux qui cherchent à enrichir leur vocabulaire et à passer un bon moment !"} customStyle={"PURPLE"} />
                         <BaseCard img={'/img/Ming-Li.jpg'} name={"Ming Li"} rating={5} comment={"Cette application Floqon est géniale ! J'aime beaucoup les défis quotidiens et le fait que je peux suivre ma progression au fil du temps. C'est un excellent moyen de se motiver pour continuer à apprendre de nouveaux mots."} customStyle={"WHITE"} />
                     </div>
 
