@@ -7,7 +7,7 @@ import Navbar from "@/components/navbar/Navbar";
 const Supports = () => {
     return (
         <div>
-            <Navbar />
+       <Navbar basketColor="BLUE" logoColor="BLUE" customStyle={{ color: '#183282' }} />
             <div className={styles.container}>
 
                 <div style={{textAlign:'center'}}>

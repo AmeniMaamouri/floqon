@@ -3,7 +3,7 @@ import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 const TermsOfServices = () => {
     return (<div>
-        <Navbar />
+    <Navbar basketColor="BLUE" logoColor="BLUE" customStyle={{ color: '#183282' }} />
         <div className={styles.container}> <h1>CONDITIONS GÉNÉRALES D’UTILISATION</h1>
         
         <p>Merci de lire avec attention les différentes modalités d’utilisation de ce présent site

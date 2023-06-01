@@ -4,7 +4,7 @@ import Navbar from "@/components/navbar/Navbar";
 
 const PagePrivacy = () => {
     return (<div>
-        <Navbar/>
+        <Navbar basketColor="BLUE" logoColor="BLUE" customStyle={{ color: '#183282' }} />
         <div className={styles.container}>
         <h1>POLITIQUE DE CONFIDENTIALITÉ</h1>
         <p>Floqon (ci-après dénommé « Floqon », « nous », « notre » et « nos ») respecte

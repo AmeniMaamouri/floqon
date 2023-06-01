@@ -11,7 +11,7 @@ import Video from '@/components/video/Video'
 export default function Home() {
   return (
     <>
-      <Navbar />
+  <Navbar basketColor="BLUE" logoColor="BLUE" customStyle={{ color: '#183282' }} />
       <Hero />
       <HowItWorks />
       <DownloadApp />

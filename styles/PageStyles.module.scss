@@ -1,10 +1,10 @@
 .bgNavBar {
-    background: #9B457A;
-    padding-bottom: 400px;
-     
-    a {
-        color: #ffffff ;
-    }
+  background: #9b457a;
+  padding-bottom: 400px;
+
+  a {
+    color: #ffffff;
+  }
 }
 .container {
   padding: 0 150px;
@@ -27,12 +27,11 @@
     object-fit: cover;
     display: block;
     margin: auto;
-    @media(max-width : 1100px) {
-        width: 95%;
+    @media (max-width: 1100px) {
+      width: 95%;
     }
   }
   .description {
-    
     text-align: left;
     width: 90%;
     margin: 68px auto;
@@ -47,7 +46,37 @@
     }
   }
 
-  @media(max-width :1100px) {
-    padding: 0 ;
+  @media (max-width: 1100px) {
+    padding: 0;
   }
+}
+.containerFaq {
+  border-radius: 12px;
+  border: 1px solid #ced4da;
+
+  width: 90%;
+  margin: 95px auto 30px auto;
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+    padding: 0 20px;
+    margin-top: 10px;
+
+    color: #4e545f;
+  }
+
+  hr {
+    border-bottom: 1px solid #ced4da;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .triggerStyle {
+    display: flex;
+    justify-content: space-between;
+  }
+  
 }

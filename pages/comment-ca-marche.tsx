@@ -5,7 +5,7 @@ import Footer from "@/components/footer/Footer";
 
 const HowItWork = () => {
     return (<div>
-        <Navbar />
+      <Navbar basketColor="BLUE" logoColor="BLUE" customStyle={{ color: '#183282' }} />
         <div className={styles.container}>
             <h1>COMMENT ÇA MARCHE ?</h1>
             <p>Le jeu “ <b>Floqon Alphabet</b> ” consiste à choisir un thème ou catégorie au hasard et à

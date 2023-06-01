@@ -4,7 +4,7 @@ import Footer from "@/components/footer/Footer";
 
 const ConstactUs = () => {
     return ( <div>
-        <Navbar/>
+    <Navbar basketColor="BLUE" logoColor="BLUE" customStyle={{ color: '#183282' }} />
         <div className={styles.container}>
             <h1 style={{marginBottom:"120px"}}>CONTACTEZ-NOUS</h1>
             <div className={styles.content}>

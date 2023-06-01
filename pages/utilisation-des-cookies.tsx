@@ -3,7 +3,7 @@ import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 const Cookies = () => {
     return (<div>
-        <Navbar />
+      <Navbar basketColor="BLUE" logoColor="BLUE" customStyle={{ color: '#183282' }} />
         <div className={styles.container}>
             <h1>COOKIES</h1>
             <p>Les cookies sont des petits fichiers qui sont déposés automatiquement sur votre
