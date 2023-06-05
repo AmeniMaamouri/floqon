@@ -1,12 +1,16 @@
-import styles from "../styles/Page.module.scss"
+import styles from "../styles/PageStyles.module.scss"
 import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/navbar/Navbar";
 
 const PagePrivacy = () => {
     return (<div>
-        <Navbar basketColor="BLUE" logoColor="BLUE" customStyle={{ color: '#183282' }} />
+    <div className={styles.bgNavBar}>
+            <Navbar basketColor="WHITE" logoColor="WHITE" customStyle={{ color: 'white' }} />
+        </div>
         <div className={styles.container}>
         <h1>POLITIQUE DE CONFIDENTIALITÉ</h1>
+        <img className={styles.aboutImg}  src="/img/Confidentialite_Floqon.jpg" alt="" />
+        <div  className={styles.description} style={{ textAlign: 'left' }}>
         <p>Floqon (ci-après dénommé « Floqon », « nous », « notre » et « nos ») respecte
             pleinement votre vie privée. Cette politique couvre le traitement des données
             personnelles par Floqon, qui s{"'"}engage à protéger la confidentialité de vos
@@ -165,6 +169,7 @@ const PagePrivacy = () => {
         <p><u><b>contact@floqon.com</b></u></p>
         <p>Si nous ne pouvons pas répondre à votre question, vous avez le droit de contacter
             votre autorité locale de surveillance de la protection des données.</p>
+        </div>
         </div>
     <Footer/>
     </div>);

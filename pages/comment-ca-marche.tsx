@@ -1,13 +1,17 @@
 
-import styles from "../styles/Page.module.scss"
+import styles from "../styles/PageStyles.module.scss"
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 
 const HowItWork = () => {
     return (<div>
-      <Navbar basketColor="BLUE" logoColor="BLUE" customStyle={{ color: '#183282' }} />
+   <div className={styles.bgNavBar}>
+                <Navbar basketColor="WHITE" logoColor="WHITE" customStyle={{ color: 'white' }} />
+            </div>
         <div className={styles.container}>
             <h1>COMMENT ÇA MARCHE ?</h1>
+            <img className={styles.aboutImg} src="/img/Mentions-Legales Floqon.jpg" alt="" />
+            <div className={styles.description} style={{ textAlign: 'left' }}>
             <p>Le jeu “ <b>Floqon Alphabet</b> ” consiste à choisir un thème ou catégorie au hasard et à
                 trouver des mots commençant par la lettre tirée, issue de l’ensemble de la liste de
                 l’alphabet français fondamental. Les joueurs peuvent jouer seuls ou en groupe, entre
@@ -24,7 +28,7 @@ const HowItWork = () => {
             <p>En résumé, si vous cherchez une façon amusante d{"'"}améliorer votre vocabulaire ou
                 simplement de passer un bon moment, cette application est faite pour vous !</p>
 
-            <h2>DEVENIR UN FUTUR CHAMPION ?</h2>
+            <h2><b>DEVENIR UN FUTUR CHAMPION ?</b></h2>
             <p>Pour devenir un champion avec et sur Floqon, il faut tout d’abord commencer par
                 télécharger l’application mobile, disponible sur les stores ( <b>Android</b> & <b>iOS</b> ). Ensuite, il
                 faut consulter, un par un, tous les thèmes proposés et s’entraîner constamment à
@@ -36,7 +40,7 @@ const HowItWork = () => {
                 également les mots avec leur orthographe correcte chacun. Pour cela, l’utilisateur
                 dispose d’un espace appelé “ <b>Mots enregistrés</b> ” depuis son compte personnel, qui lui
                 permet de sauvegarder tous les mots nouveaux qui ont retenu son attention.</p>
-            <p>nouveaux qui ont retenu son attention</p>
+        
             <p>Ces deux éléments, bien complémentaires, pour <u><b>apprendre</b></u> et <u><b>jouer</b></u> à la fois, donne à
                 l’utilisateur toutes les chances d’améliorer son vocabulaire, en peu de temps et de
                 manière efficace, de sorte à pouvoir défier quiconque sur les thèmes ou catégories
@@ -104,6 +108,7 @@ const HowItWork = () => {
                 développer des <u><b>compétences transversales</b></u>.</p>
 
             <h2><b>N{"'"}hésitez pas à nous contacter si vous avez des questions et/ou suggestions !</b></h2>
+        </div>
         </div>
         <Footer />
     </div>);
